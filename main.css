@@ -1,0 +1,26 @@
+caption {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table {
+    overflow: hidden;
+    border-collapse: collapse;
+    border-spacing: 0;
+    z-index: -1;
+    position: relative;
+    border: 1px solid black;
+    height: 500px;
+    width: 80%;
+    min-width: 600px;
+    max-width: 1500px;
+    margin: 0px auto;
+}
+
+th {
+    font-size: 1.2rem;
+}
+
+table td {
+    border: 1px solid black;
+}
