@@ -10,17 +10,33 @@ table {
     z-index: -1;
     position: relative;
     border: 1px solid black;
-    height: 500px;
+    height: 1000px;
     width: 80%;
     min-width: 600px;
     max-width: 1500px;
     margin: 0px auto;
+    font-family: "arial", sans-serif, serif;
 }
 
 th {
     font-size: 1.2rem;
+    border: 1px solid black;
 }
 
 table td {
     border: 1px solid black;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.even {
+    background-color: hsl(213, 100%, 67%);
+}
+
+.odd {
+    background-color: hsl(213, 100%, 80%);
+}
+
+.Rodd {
+    background-color: hsl(197, 100%, 79%);
 }
